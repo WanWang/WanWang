@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA3C417165BA0E000855247 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA3C416165BA0E000855247 /* UIKit.framework */; };
+		0FA3C419165BA0E000855247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA3C418165BA0E000855247 /* Foundation.framework */; };
+		0FA3C41B165BA0E000855247 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA3C41A165BA0E000855247 /* CoreGraphics.framework */; };
+		0FA3C421165BA0E000855247 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FA3C41F165BA0E000855247 /* InfoPlist.strings */; };
+		0FA3C423165BA0E000855247 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3C422165BA0E000855247 /* main.m */; };
+		0FA3C427165BA0E000855247 /* LYCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3C426165BA0E000855247 /* LYCAppDelegate.m */; };
+		0FA3C42F165BA0E100855247 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA3C42E165BA0E100855247 /* SenTestingKit.framework */; };
+		0FA3C430165BA0E100855247 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA3C416165BA0E000855247 /* UIKit.framework */; };
+		0FA3C431165BA0E100855247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA3C418165BA0E000855247 /* Foundation.framework */; };
+		0FA3C439165BA0E100855247 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FA3C437165BA0E100855247 /* InfoPlist.strings */; };
+		0FA3C43C165BA0E100855247 /* WanWangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3C43B165BA0E100855247 /* WanWangTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FA3C432165BA0E100855247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FA3C409165BA0DC00855247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FA3C411165BA0E000855247;
+			remoteInfo = WanWang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FA3C412165BA0E000855247 /* WanWang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanWang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA3C416165BA0E000855247 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FA3C418165BA0E000855247 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FA3C41A165BA0E000855247 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FA3C41E165BA0E000855247 /* WanWang-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WanWang-Info.plist"; sourceTree = "<group>"; };
+		0FA3C420165BA0E000855247 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FA3C422165BA0E000855247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FA3C424165BA0E000855247 /* WanWang-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WanWang-Prefix.pch"; sourceTree = "<group>"; };
+		0FA3C425165BA0E000855247 /* LYCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCAppDelegate.h; sourceTree = "<group>"; };
+		0FA3C426165BA0E000855247 /* LYCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCAppDelegate.m; sourceTree = "<group>"; };
+		0FA3C42D165BA0E100855247 /* WanWangTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanWangTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA3C42E165BA0E100855247 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0FA3C436165BA0E100855247 /* WanWangTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WanWangTests-Info.plist"; sourceTree = "<group>"; };
+		0FA3C438165BA0E100855247 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FA3C43A165BA0E100855247 /* WanWangTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WanWangTests.h; sourceTree = "<group>"; };
+		0FA3C43B165BA0E100855247 /* WanWangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WanWangTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FA3C40F165BA0E000855247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA3C417165BA0E000855247 /* UIKit.framework in Frameworks */,
+				0FA3C419165BA0E000855247 /* Foundation.framework in Frameworks */,
+				0FA3C41B165BA0E000855247 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA3C429165BA0E100855247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA3C42F165BA0E100855247 /* SenTestingKit.framework in Frameworks */,
+				0FA3C430165BA0E100855247 /* UIKit.framework in Frameworks */,
+				0FA3C431165BA0E100855247 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FA3C407165BA0DC00855247 = {
+			isa = PBXGroup;
+			children = (
+				0FA3C41C165BA0E000855247 /* WanWang */,
+				0FA3C434165BA0E100855247 /* WanWangTests */,
+				0FA3C415165BA0E000855247 /* Frameworks */,
+				0FA3C413165BA0E000855247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FA3C413165BA0E000855247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FA3C412165BA0E000855247 /* WanWang.app */,
+				0FA3C42D165BA0E100855247 /* WanWangTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FA3C415165BA0E000855247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FA3C416165BA0E000855247 /* UIKit.framework */,
+				0FA3C418165BA0E000855247 /* Foundation.framework */,
+				0FA3C41A165BA0E000855247 /* CoreGraphics.framework */,
+				0FA3C42E165BA0E100855247 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FA3C41C165BA0E000855247 /* WanWang */ = {
+			isa = PBXGroup;
+			children = (
+				0FA3C425165BA0E000855247 /* LYCAppDelegate.h */,
+				0FA3C426165BA0E000855247 /* LYCAppDelegate.m */,
+				0FA3C41D165BA0E000855247 /* Supporting Files */,
+			);
+			path = WanWang;
+			sourceTree = "<group>";
+		};
+		0FA3C41D165BA0E000855247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FA3C41E165BA0E000855247 /* WanWang-Info.plist */,
+				0FA3C41F165BA0E000855247 /* InfoPlist.strings */,
+				0FA3C422165BA0E000855247 /* main.m */,
+				0FA3C424165BA0E000855247 /* WanWang-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FA3C434165BA0E100855247 /* WanWangTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FA3C43A165BA0E100855247 /* WanWangTests.h */,
+				0FA3C43B165BA0E100855247 /* WanWangTests.m */,
+				0FA3C435165BA0E100855247 /* Supporting Files */,
+			);
+			path = WanWangTests;
+			sourceTree = "<group>";
+		};
+		0FA3C435165BA0E100855247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FA3C436165BA0E100855247 /* WanWangTests-Info.plist */,
+				0FA3C437165BA0E100855247 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FA3C411165BA0E000855247 /* WanWang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA3C43F165BA0E100855247 /* Build configuration list for PBXNativeTarget "WanWang" */;
+			buildPhases = (
+				0FA3C40E165BA0E000855247 /* Sources */,
+				0FA3C40F165BA0E000855247 /* Frameworks */,
+				0FA3C410165BA0E000855247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WanWang;
+			productName = WanWang;
+			productReference = 0FA3C412165BA0E000855247 /* WanWang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FA3C42C165BA0E100855247 /* WanWangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA3C442165BA0E100855247 /* Build configuration list for PBXNativeTarget "WanWangTests" */;
+			buildPhases = (
+				0FA3C428165BA0E100855247 /* Sources */,
+				0FA3C429165BA0E100855247 /* Frameworks */,
+				0FA3C42A165BA0E100855247 /* Resources */,
+				0FA3C42B165BA0E100855247 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FA3C433165BA0E100855247 /* PBXTargetDependency */,
+			);
+			name = WanWangTests;
+			productName = WanWangTests;
+			productReference = 0FA3C42D165BA0E100855247 /* WanWangTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FA3C409165BA0DC00855247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0FA3C40C165BA0DD00855247 /* Build configuration list for PBXProject "WanWang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FA3C407165BA0DC00855247;
+			productRefGroup = 0FA3C413165BA0E000855247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FA3C411165BA0E000855247 /* WanWang */,
+				0FA3C42C165BA0E100855247 /* WanWangTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FA3C410165BA0E000855247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA3C421165BA0E000855247 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA3C42A165BA0E100855247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA3C439165BA0E100855247 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FA3C42B165BA0E100855247 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FA3C40E165BA0E000855247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA3C423165BA0E000855247 /* main.m in Sources */,
+				0FA3C427165BA0E000855247 /* LYCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA3C428165BA0E100855247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA3C43C165BA0E100855247 /* WanWangTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FA3C433165BA0E100855247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FA3C411165BA0E000855247 /* WanWang */;
+			targetProxy = 0FA3C432165BA0E100855247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0FA3C41F165BA0E000855247 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FA3C420165BA0E000855247 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FA3C437165BA0E100855247 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FA3C438165BA0E100855247 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FA3C43D165BA0E100855247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FA3C43E165BA0E100855247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FA3C440165BA0E100855247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WanWang/WanWang-Prefix.pch";
+				INFOPLIST_FILE = "WanWang/WanWang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FA3C441165BA0E100855247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WanWang/WanWang-Prefix.pch";
+				INFOPLIST_FILE = "WanWang/WanWang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0FA3C443165BA0E100855247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WanWang.app/WanWang";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WanWang/WanWang-Prefix.pch";
+				INFOPLIST_FILE = "WanWangTests/WanWangTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0FA3C444165BA0E100855247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WanWang.app/WanWang";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WanWang/WanWang-Prefix.pch";
+				INFOPLIST_FILE = "WanWangTests/WanWangTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FA3C40C165BA0DD00855247 /* Build configuration list for PBXProject "WanWang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA3C43D165BA0E100855247 /* Debug */,
+				0FA3C43E165BA0E100855247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA3C43F165BA0E100855247 /* Build configuration list for PBXNativeTarget "WanWang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA3C440165BA0E100855247 /* Debug */,
+				0FA3C441165BA0E100855247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0FA3C442165BA0E100855247 /* Build configuration list for PBXNativeTarget "WanWangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA3C443165BA0E100855247 /* Debug */,
+				0FA3C444165BA0E100855247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FA3C409165BA0DC00855247 /* Project object */;
+}
